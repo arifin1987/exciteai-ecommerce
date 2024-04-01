@@ -1,0 +1,50 @@
+[
+  {
+    "productName": "Eco-Friendly Water Bottle",
+    "image": "https://img.freepik.com/free-photo/female-hand-typing-keyboard-laptop_1150-15742.jpg?w=740&t=st=1711115533~exp=1711116133~hmac=7e44a485f199c27c9b5b1f38dd0b8e947baacd45c72b2257a8bf3b670d9074fa",
+    "price": 20,
+    "productDescription": "Stay hydrated and eco-conscious with our BPA-free, reusable water bottle. Perfect for the gym, hiking, or everyday use.",
+    "onSale": true,
+    "offerProduct": false
+  },
+  {
+    "productName": "Wireless Noise-Cancelling Headphones",
+    "image": "https://img.freepik.com/premium-photo/shot-desktop-computer-keyboard-mouse-creative-modern-office-generative-ai_39665-664.jpg?w=740",
+    "price": 250,
+    "productDescription": "Experience unparalleled sound quality and silence the world around you with our top-rated noise-cancelling headphones.",
+    "onSale": false,
+    "offerProduct": true
+  },
+  {
+    "productName": "Organic Coffee Beans - 1lb",
+    "image": "https://img.freepik.com/free-photo/modern-home-interior-with-comfortable-sofa-window-generative-ai_188544-19459.jpg?w=826&t=st=1711116005~exp=1711116605~hmac=03b7c0a916f8bee75045ae6e5598f10f9f214d4b3ae18f80acb7fb45b1a47f26",
+    "price": 15,
+    "productDescription": "Wake up to the rich, aromatic flavor of our organic coffee beans, sourced from sustainable farms for the perfect morning brew.",
+    "onSale": true,
+    "offerProduct": false
+  },
+  {
+    "productName": "Smart Fitness Watch",
+    "image": "https://img.freepik.com/free-photo/modern-monitor-elegant-table_23-2150706393.jpg?t=st=1711116016~exp=1711119616~hmac=cdd529e4ad3da2443b368ddd61eb94628e7f24c880e52e9183f7c5eda874ab3b&w=740",
+    "price": 199,
+    "productDescription": "Track your fitness journey with our smart watch. Monitor your heart rate, steps, and sleep patterns to achieve your health goals.",
+    "onSale": false,
+    "offerProduct": true
+  },
+  {
+    "productName": "Luxury Silk Pillowcase",
+    "image": "https://img.freepik.com/premium-photo/modern-interior-with-tree-glass-winegenerative-ai_221128-11053.jpg?w=740",
+    "price": 50,
+    "productDescription": "Transform your sleep with our luxury silk pillowcase. Reduce hair breakage and wake up to smooth, hydrated skin every morning.",
+    "onSale": true,
+    "offerProduct": false
+  },
+  {
+    "productName": "Bluetooth Earbuds",
+    "image": "https://img.freepik.com/premium-photo/modern-interior-with-tree-glass-winegenerative-ai_221128-11053.jpg?w=740",
+    "price": 59.99,
+    "productDescription": "Experience freedom from wires with our high-quality Bluetooth earbuds. Enjoy crisp, clear sound whether you're at home, work, or jogging.",
+    "onSale": true,
+    "offerProduct": false
+  }
+]
