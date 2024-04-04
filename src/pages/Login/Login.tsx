@@ -2,7 +2,12 @@ import Container from "@/components/Container";
 import { useForm } from "react-hook-form";
 
 const Login = () => {
-  const { register, handleSubmit, reset } = useForm();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
   const onSubmit = (data) => {
     console.log(data);
     reset();
@@ -17,8 +22,12 @@ const Login = () => {
             <input
               className="w-full rounded-md"
               type="email"
-              {...register("email")}
+              {...register("email", { required: true })}
+              placeholder="Email"
             />
+            {errors.email && (
+              <span className="text-red-600">Email is required</span>
+            )}
             <p className="text-red-500 text-end">Forgotten Password?</p>
           </div>
           <div className="flex flex-col gap-3">
@@ -26,8 +35,12 @@ const Login = () => {
             <input
               className="w-full rounded-md"
               type="password"
-              {...register("password")}
+              {...register("password", { required: true })}
+              placeholder="Password"
             />
+            {errors.password && (
+              <span className="text-red-600">Password is required</span>
+            )}
           </div>
           <button
             className="border-2 p-4 w-full rounded-md bg-blue-500 text-white-500 my-2 text-white"
