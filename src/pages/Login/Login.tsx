@@ -10,7 +10,7 @@ const Login = () => {
   return (
     <Container className="min-h-screen hero">
       <div className="card flex-shrink-0 w-full max-w-sm ">
-        <h1 className="text-black-500 text-2xl ">Account Login</h1>
+        <h1 className="text-black-500 text-2xl my-4">Account Login</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div>
             <label>Phone/E-Mail</label>
