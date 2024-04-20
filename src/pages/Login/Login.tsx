@@ -50,7 +50,7 @@ const Login = () => {
           </button>
           <p className="text-center">Don't have an account?</p>
           <button
-            className="border-2 border-blue-500 p-4 w-full rounded-md text-blue-500 my-2"
+            className="border-2 border-blue-500 hover:bg-blue-500 hover:text-white p-4 w-full rounded-md text-blue-500 my-2"
             type="submit"
           >
             Create Your Account

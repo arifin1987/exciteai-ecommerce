@@ -56,6 +56,33 @@ const Register = () => {
               <span className="text-red-600">E-mail is required</span>
             )}
           </div>
+
+          <div className="flex flex-col gap-2 my-2">
+            <label htmlFor="">Password</label>
+            <input
+              type="password"
+              {...register("password", {
+                required: true,
+                minLength: 6,
+
+                pattern: /(?=.*[A-Z])(?=.*[!@#$&*])/,
+              })}
+              placeholder="Password"
+              className="rounded-md w-full"
+            />
+            {errors.password?.type === "required" && (
+              <p className="text-red-600">Password is required</p>
+            )}
+            {errors.password?.type === "minLength" && (
+              <p className="text-red-600">Password must be 6 characters</p>
+            )}
+
+            {errors.password?.type === "pattern" && (
+              <p className="text-red-600">
+                Password must have one Upper case and one special character.
+              </p>
+            )}
+          </div>
           <div className="flex flex-col gap-2">
             <label htmlFor="">Telephone</label>
             <input
